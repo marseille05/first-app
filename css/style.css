@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+header {
+    background: linear-gradient(to right,#cb11ab 0,#481173 100%) no-repeat;
+    padding-bottom: 30px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-top ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar-top ul li img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.navbar-top ul li {
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: .6;
+}
+.navbar-top ul li:hover {
+    opacity: 1;
+}
+.sellonwildberries {
+    background-color: #cb11ab;
+    padding: 8px 20px;
+    border-radius: 40px;
+}
+.workonwildberries {
+    background-color: #ff636d;
+    background-image: linear-gradient(90.4deg,#ff636d .17%,#f88245 57.13%,#f3a720 103.22%);
+    padding: 8px 20px;
+    border-radius: 40px;
+}
+.errors {
+    display: flex;
+   
+}
+.errors p {
+    color: white;
+    background-color: #cb11ab;
+    padding: 8px 20px;
+    border-radius: 40px;
+
+}
+
+/* Navbar bottom */
+
+.navbar-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.inline_block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+}
+.bars {
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 10px;
+    opacity: .6;
+}
+.bars:hover {
+    opacity: 1;
+}
+.bars div {
+    height: 3px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 5px 0;
+}
+.inline_block h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+}
+.search {
+    width: 80%;
+}
+.search input {
+    width: 100%;
+    height: 50px ;
+    border: 0;
+    border-radius: 30px;
+    padding-left: 30px;
+    outline: 0;
+    background: rgba(255,255,255, .2);
+    transition: .8s;
+}
+.search input:hover {
+   background:  rgba(255,255,255, .5);
+}
+.icons {
+    display: flex;
+    color: white;
+    gap: 30px;
+}
+.icons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons div span {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* MAIN */
+
+.main_banner {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    padding: 35px 0;
+    top: -20px;
+    padding-bottom: 100px;
+}
+.banner {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.promoactions {
+    margin-top: 50px;
+    display: flex;
+    gap: 37px;
+    flex-wrap: wrap;
+}
+.actions {
+    width: 23%;
+    height: 245px;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.actions img {
+    transition: .6s;
+    width: 100%;
+}
+.actions img:hover {
+transform: scale(1.1);
+}
+
+/* MAIN */
+
+.hits_solds {
+    margin-top: 50px;
+}
+.hits {
+    width: 14%;
+    height: 256px;
+}
+.inline_hits {
+    display: flex;
+    gap: 30px;
+}
+.card1 {
+    background: url('https://basket-04.wb.ru/vol518/part51869/51869524/images/c246x328/1.jpg') center / cover;
+}
+.card2 {
+    background: url('https://basket-01.wb.ru/vol23/part2389/2389152/images/c246x328/1.jpg') center / cover;
+}
+.card3 {
+    background: url('https://basket-01.wb.ru/vol63/part6372/6372478/images/c246x328/1.jpg') center / cover;
+}
+.card4 {
+    background: url('https://basket-02.wb.ru/vol280/part28023/28023865/images/c246x328/1.jpg') center / cover;
+}
+.card5 {
+    background: url('https://basket-01.wb.ru/vol100/part10029/10029203/images/c246x328/1.jpg') center / cover;
+}
+.card6 {
+    background: url('https://basket-03.wb.ru/vol365/part36538/36538416/images/c246x328/1.jpg') center / cover;
+}
+.card7 {
+    background: url('https://basket-01.wb.ru/vol29/part2963/2963607/images/c246x328/1.jpg') center / cover;
+}
+.hits_banner {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+.hits_banner button {
+    width: 150px;
+    padding: 12px 10px;
+    border-radius: 30px;
+    border:0;
+    background: white;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transition: .6s;
+    opacity:    0;
+}
+.hits:hover .hits_banner button {
+    opacity: 1;
+}
+
+.hits_banner span {
+    padding: 10px 15px;
+    color: #cb11ab;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.price del {
+    color: gray;
+    font-size: 15px;
+}
+
+.price h3 {
+    margin: 0;
+}
+.hits p {
+    margin: 0;
+    color: gray;
+    font-size: 16px;
+}
+
+/* BRANDS */
+
+.brands {
+    margin-top: 150px ;
+}
+.brands_title {
+    display: flex;
+    align-items: center;
+    gap: 30px ;
+}
+.brands_title span {
+    color: #cb11ab;
+    padding-top: 5px;
+    font-weight: 900;
+}
+.brands ul {
+    display: flex;
+    gap: 30px;
+    overflow-y: scroll;
+}
+.brands ul::-webkit-scrollbar {
+    display: none;
+}
+.brands ul li {
+    padding: 15px 20px;
+    border: 1px solid gray;
+    border-radius: 40px;
+    transition: .6s;
+}
+.brands ul li:hover {
+    border: 1px solid #cb11ab;
+    color: #cb11ab;
+}
+.brands_icons {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* FOOTER */
+
+.footer_banner {
+    background-color: #481173;
+    padding: 50px 0;
+}
+.footbar {
+    display: flex;
+    justify-content: space-between;
+}
+.footbar ul h2 {
+    color: white;
+    font-size: 19px;
+}
+.footbar ul li {
+    color: white ;
+    opacity: .6;
+    line-height: 2;
+}
+.footbar ul li:hover {
+    opacity: 1;
+}
